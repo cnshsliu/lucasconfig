@@ -1,0 +1,43 @@
+PATH=${PATH}:~/bin:/usr/local/mysql/bin
+export PATH
+
+# Setting PATH for MacPython 2.6
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.6/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+PATH="/Users/liukehong/dev/mongodb/bin:${PATH}"
+export PATH
+
+export CLICOLOR=1
+export LSCOLORS=GxBxCxDxexegedabagaced
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# Setting PATH for Python 3.5
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
+export PS1='\w $'
+export GEM_HOME=$HOME/Software/ruby
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export PATH=$PATH:/Users/liukehong/dev/mongodb/bin:$GEM_HOME/bin:/Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin
+alias mylkh="mysql -u liukehong -pDB_PASSWORD liukehong"
+alias myroot="mysql -u root -ppsammead"
+
+export NVM_DIR="/Users/liukehong/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export VIRTUALENVWRAPPER_PYTHON=/Library/Frameworks/Python.framework/Versions/3.5/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenv
+export WORKON_HOME=~/Envs
+source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
+
+
+export ALL_PROXY=socks5://127.0.0.1:1080
