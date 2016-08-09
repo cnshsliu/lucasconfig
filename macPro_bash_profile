@@ -24,10 +24,10 @@ export LANG=en_US.UTF-8
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
-export PS1='\w $'
+export PS1='\w $ '
 export GEM_HOME=$HOME/Software/ruby
 export ANDROID_HOME=/usr/local/opt/android-sdk
-export PATH=$PATH:/Users/liukehong/dev/mongodb/bin:$GEM_HOME/bin:/Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin
+export PATH=~/lucasconfig/bin:$PATH:/Users/liukehong/dev/mongodb/bin:$GEM_HOME/bin:/Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin
 alias mylkh="mysql -u liukehong -pDB_PASSWORD liukehong"
 alias myroot="mysql -u root -ppsammead"
 

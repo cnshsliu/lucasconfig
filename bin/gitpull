@@ -1,0 +1,9 @@
+#!/Library/Frameworks/Python.framework/Versions/3.5/bin/python3
+
+import os, posixpath, subprocess
+
+homedir = posixpath.expanduser('~')
+celldown_dir = posixpath.join(homedir, "celldown")
+os.chdir(celldown_dir)
+subprocess.run(["git", "pull"])
+
