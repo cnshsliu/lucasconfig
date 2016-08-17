@@ -41,3 +41,5 @@ source /Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.s
 
 
 export ALL_PROXY=socks5://127.0.0.1:1080
+cd celldown
+set -o vi

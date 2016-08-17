@@ -119,3 +119,9 @@ set backspace=indent,eol,start
 
 "js stuff"
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+set clipboard=unnamed
+set tw=0
+set mouse=a
+au WinEnter * checktime
+au BufWinEnter * checktime
+au CursorHold,CursorHoldI * silent! checktime
